@@ -1,0 +1,35 @@
+# XAMPP, Apache, MySQL specific files
+.DS_Store
+.htaccess
+/config.php
+/system/logs/
+/system/cache/
+
+# Database credentials
+/includes/config.php
+/application/config/database.php
+
+# Log files
+*.log
+/logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Database data (export structure only)
+/data/
+*.sql
+# Kecuali file struktur database
+!database_structure.sql
+
+# Dependencies (if using npm or composer)
+/node_modules/
+/vendor/
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
